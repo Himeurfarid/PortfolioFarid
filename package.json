@@ -1,19 +1,20 @@
 {
-  "name": "portfoliofarid",
-  "version": "1.0.0",
+  "name": "vite-template-solid",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Himeurfarid/PortfolioFarid.git"
+  "license": "MIT",
+  "devDependencies": {
+    "solid-devtools": "^0.27.3",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
   },
-  "author": "Himeur FARID",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Himeurfarid/PortfolioFarid/issues"
-  },
-  "homepage": "https://github.com/Himeurfarid/PortfolioFarid#readme"
+  "dependencies": {
+    "solid-js": "^1.7.6"
+  }
 }
