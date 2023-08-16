@@ -13,12 +13,9 @@ function App() {
           class={styles.link}
           href="https://github.com/solidjs/solid"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer"          
         >
           Learn Solid
-
-
-          
         </a>
       </header>
     </div>
