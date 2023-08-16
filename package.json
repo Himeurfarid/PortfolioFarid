@@ -1,0 +1,19 @@
+{
+  "name": "portfoliofarid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himeurfarid/PortfolioFarid.git"
+  },
+  "author": "Himeur FARID",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himeurfarid/PortfolioFarid/issues"
+  },
+  "homepage": "https://github.com/Himeurfarid/PortfolioFarid#readme"
+}
