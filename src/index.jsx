@@ -1,7 +1,7 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
 import "./index.css";
-import App from "./App";
+import Home from "../src/pages/Home.jsx";
 import { Router, Route, Routes } from "@solidjs/router";
 
 const root = document.getElementById("root");
@@ -16,7 +16,8 @@ render(
   () => (
     <Router>
       <Routes>
-        <Route path="/" component={App} /> {/* 👈 Define the home page route */}
+        <Route path="/" component={Home} />
+        {/* 👈 Define the home page route */}
       </Routes>
     </Router>
   ),
