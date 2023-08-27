@@ -16,7 +16,7 @@ render(
   () => (
     <Router>
       <Routes>
-        <Route path="/" component={Home} />
+        <Route exact path="/fr" component={Home} />
         {/* 👈 Define the home page route */}
       </Routes>
     </Router>
