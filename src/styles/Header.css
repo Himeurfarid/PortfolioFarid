@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    padding: 0rem 0rem 0rem 1rem;   
+}
+
+.logo-name-header {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-name-header:hover {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+
+}
+
+.logo-header {
+    padding: 1rem;
+}
+
+.name-header {
+    padding: 1rem;
+}
+
+.ul-header {
+    display: flex;
+}
+
+.li-header{
+    list-style-type: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.link-li {
+    text-decoration: none;
+    color:#000;
+}
+
+.link-li:hover {
+    text-decoration: none;
+    color: red;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .nav-header{
+        display: none;
+    }
+}

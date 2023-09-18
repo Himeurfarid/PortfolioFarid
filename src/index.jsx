@@ -1,8 +1,11 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
-import "./index.css";
-import Home from "../src/pages/Home.jsx";
 import { Router, Route, Routes } from "@solidjs/router";
+import "./index.css";
+import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+import MenuFood from "./pages/MenuFood";
 
 const root = document.getElementById("root");
 
@@ -16,7 +19,10 @@ render(
   () => (
     <Router>
       <Routes>
-        <Route exact path="/fr" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/menus" component={MenuFood} />
+        <Route exact path="/infos" component={AboutMe} />
+        <Route exact path="/contact" component={Contact} />
         {/* 👈 Define the home page route */}
       </Routes>
     </Router>

@@ -1,21 +1,18 @@
 import Header from "../layouts/header/Header.jsx";
 import Footer from "../layouts/footer/Footer.jsx";
 
-function Home() {
+function AboutMe() {
   return (
     <div>
       <Header />
       <div>
         <p>Nom de l'entreprise</p>
-        <p>phrase d'accroche</p>
-        <p>Photos des produits</p>
-      </div>
-      <div>
-        <p>où sommes-nous + localisation sur carte en vertical</p>
+        <p>Présentation de l'entreprise</p>
+        <p>Carte en horizontal + Adresse</p>
       </div>
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default AboutMe;
