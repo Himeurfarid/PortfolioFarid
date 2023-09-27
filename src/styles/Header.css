@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    padding: 0rem 0rem 0rem 1rem;   
+    padding: 0rem 0rem 0rem 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);   
 }
 
 .logo-name-header {
@@ -46,7 +47,7 @@
     color: red;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 660px) {
     .nav-header{
         display: none;
     }

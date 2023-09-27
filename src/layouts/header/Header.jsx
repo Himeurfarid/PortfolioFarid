@@ -8,32 +8,22 @@ function Header() {
       <Button />
       <div>
         <Link href="/" class="logo-name-header">
-          <p class="logo-header">Logo</p>
-          <p class="name-header">Nom du Restaurant</p>
+          <p class="name-header">GO2 FOOD</p>
         </Link>
       </div>
       <nav class="nav-header">
         <ul class="ul-header">
-          <li class="li-header">
-            <Link href="/" class="link-li">
-              Accueil
-            </Link>
-          </li>
-          <li class="li-header">
-            <Link href="/menus" class="link-li">
-              Menus
-            </Link>
-          </li>
-          <li class="li-header">
-            <Link href="/infos" class="link-li">
-              À propos
-            </Link>
-          </li>
-          <li class="li-header">
-            <Link href="/contact" class="link-li">
-              Contact
-            </Link>
-          </li>
+          <Link href="/" class="link-li">
+            <li class="li-header">Accueil</li>
+          </Link>
+
+          <Link href="/menus" class="link-li">
+            <li class="li-header">Menus</li>
+          </Link>
+
+          <Link href="/contact" class="link-li">
+            <li class="li-header">Contact</li>
+          </Link>
         </ul>
       </nav>
     </div>

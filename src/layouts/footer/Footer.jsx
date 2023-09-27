@@ -1,12 +1,14 @@
+import "../../styles/Footer.css";
+
 function Footer() {
   return (
-    <div>
-      <div>
-        <p>Numéro de téléphone</p>
-        <p>Logo + Nom du restaurant</p>
-        <p>Adresse</p>
+    <div class="footer">
+      <div class="first-footer">
+        <p>09 78 80 90 35</p>
+        <p>GO2 FOOD</p>
+        <p>16 Rue Herbillon, 51000 Châlons-en-Champagne</p>
       </div>
-      <div>
+      <div class="second-footer">
         <p>Mentions légales</p>
         <p>Réseaux sociaux</p>
       </div>

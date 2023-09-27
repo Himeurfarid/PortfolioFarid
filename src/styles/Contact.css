@@ -1,0 +1,29 @@
+.body{
+    min-height: 100%;
+    margin-bottom: -142px; 
+}
+
+.title-contact{
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 660px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,14 @@
+.footer {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid rgba(128, 128, 128, 0.514);
+        min-height: 142px;
+}
+
+.first-footer {
+    display: flex;
+}
+
+.second-footer {
+    display: flex;
+}

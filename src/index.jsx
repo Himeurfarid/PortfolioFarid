@@ -3,7 +3,6 @@ import { render } from "solid-js/web";
 import { Router, Route, Routes } from "@solidjs/router";
 import "./index.css";
 import Home from "./pages/Home";
-import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import MenuFood from "./pages/MenuFood";
 
@@ -21,7 +20,6 @@ render(
       <Routes>
         <Route exact path="/" component={Home} />
         <Route exact path="/menus" component={MenuFood} />
-        <Route exact path="/infos" component={AboutMe} />
         <Route exact path="/contact" component={Contact} />
         {/* 👈 Define the home page route */}
       </Routes>
