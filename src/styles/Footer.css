@@ -1,8 +1,9 @@
 .footer {
         display: flex;
         flex-direction: column;
-        border-top: 1px solid rgba(128, 128, 128, 0.514);
-        min-height: 142px;
+        background-color:#fff;
+        color:#4b4c4d;
+        font-weight: bold;
 }
 
 .first-footer {

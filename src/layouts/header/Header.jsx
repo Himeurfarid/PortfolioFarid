@@ -5,11 +5,11 @@ import "../../styles/Header.css";
 function Header() {
   return (
     <div class="header">
-      <Button />
-      <div>
+      <div class="nav">
         <Link href="/" class="logo-name-header">
           <p class="name-header">GO2 FOOD</p>
         </Link>
+        <Button />
       </div>
       <nav class="nav-header">
         <ul class="ul-header">

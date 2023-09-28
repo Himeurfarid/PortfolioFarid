@@ -1,40 +1,68 @@
 .header {
     display: flex;
+    gap:3rem;
     padding: 0rem 0rem 0rem 1rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.514);   
+    border-bottom: 1px solid rgba(128, 128, 128, 0.199);   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
+.nav {
+    display: flex;
+}
 .logo-name-header {
     display: flex;
+    flex-direction: column;
     cursor: pointer;
     text-decoration: none;
-    color: #000;
+    color: white;
+    font-weight: bold;
+    background-color: #df4937;
+    margin:0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
 }
 
 .logo-name-header:hover {
     display: flex;
     cursor: pointer;
-    text-decoration: none;
-    color: red;
-
-}
-
-.logo-header {
-    padding: 1rem;
+    background-color: #df4837da;
 }
 
 .name-header {
-    padding: 1rem;
+    padding: 0.5rem;
 }
+
 
 .ul-header {
     display: flex;
+    margin:0.25rem;
+    gap:1rem;
 }
 
 .li-header{
     list-style-type: none;
-    padding: 1rem;
+    padding: 0.5rem;
     cursor: pointer;
+    color: #df4937;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    
+   
+}
+
+.li-header:hover{
+    list-style-type: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #df4937;
+    font-weight: bold;
+    border-top: 4px solid #df4937;
+    border-bottom: 4px solid #df4937;
 }
 
 .link-li {
@@ -42,10 +70,6 @@
     color:#000;
 }
 
-.link-li:hover {
-    text-decoration: none;
-    color: red;
-}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 660px) {
     .nav-header{
